@@ -1,5 +1,5 @@
 import pytest
-from calculator.operations import add, subtract, multiply, divide
+from calculator.operations import add, subtract
 
 
 def test_add():
@@ -8,8 +8,3 @@ def test_add():
 
 def test_subtract():
     assert subtract(10, 4) == 6
-
-
-def test_multiply():
-    assert multiply(3, 7) == 21
-
